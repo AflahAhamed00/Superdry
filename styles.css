@@ -1,0 +1,687 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+header
+{
+    height: 6.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+header .navbar
+{
+    height: 8rem;
+    display: flex;
+    padding-left: 4rem;
+    align-items: center;
+}   
+
+header .navbar img
+{
+    position: absolute;
+    left: 40rem;
+    width: 14rem;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+header .navbar .i i
+{
+    font-size: 20px;
+    padding-right:1.5rem ;
+    cursor: pointer;
+}
+
+header .navbar .shopping 
+{
+    position: absolute; 
+    right: 3rem;
+    justify-content: end;
+    font-size:20px ;
+}
+
+header .navbar .shopping i
+{
+    padding-right:3.5rem ;
+    cursor: pointer;
+}
+
+ .offer
+{
+    background-image: url("images/SALE-BANNER.webp");
+    height: 10rem;
+    position: relative;
+    text-align: center;
+}
+
+ .offer .firstline h1
+{
+    color: white;
+    justify-content: center;
+    font-size: 48px;
+    font-family: supergroup_heavy, Arial, "Lucida Grande", sans-serif;
+    padding-bottom: .4rem;
+}
+
+.offer  button
+{
+    padding: .5rem 2rem .5rem 2rem;
+    color: white;
+    background-color: black;
+    font-family: supergroup_std, Arial, sans-serif;
+    border: none;
+    margin:0 1rem 1rem;
+    cursor: pointer;
+}
+
+.offer  button:hover
+{
+    color: black;
+    background-color: white;
+}
+
+.offer h6
+{
+    color: white;
+    font-family: supergroup_std, Arial, sans-serif;
+    font-size: 11px;
+    font-weight: lighter;
+    word-spacing: .2rem;
+    line-height: 1rem;
+}
+
+.section-1
+{
+    position: relative;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+section .section-1 img
+{
+    width: 95rem;
+}
+
+.section-1 button
+{
+    padding: 1rem 3rem 1rem 3rem;
+    color: black;
+    font-weight: bolder;
+    font-family: supergroup_std, Arial, sans-serif;
+    font-size: 15px;
+    background-color:white;
+    border: none;
+    margin:0 1rem 1rem;
+}
+
+.section-1 button:hover
+{
+    color:white;
+    background-color: black;
+}
+.section-1 .shopmen
+{
+    position: absolute;
+    left: 35rem;
+    bottom: 11rem;
+}
+
+.section-1 .shopwomen
+{
+    position: absolute;
+    left: 47rem;
+    bottom: 11rem;
+}
+
+.section-2
+{
+    position: relative;
+    justify-content: center; 
+    width: 100;
+    margin: 2rem 2rem 1rem 2rem;
+    cursor: pointer;
+}
+
+.section-2 .background
+{
+    width: 80rem;
+    height: 40rem;
+    background-color: black;
+    margin:0  4rem 0 4rem;
+    
+}
+
+ .section-2 .img img 
+{
+    object-fit: cover; 
+    position: absolute;
+    left: 6rem;
+    width: 68rem; 
+    height: 40rem; 
+    margin: 0 0 0 4rem; 
+} 
+
+.section-2 .three-d-walk 
+{
+    display: flex;
+    text-align: center;
+    position: absolute;
+    left: 12rem;
+    top: 6rem;
+    font-size: 40px;
+    color: white;
+    font-weight: lighter;
+    font-family: supergroup_heavy, Arial, "Lucida Grande", sans-serif;
+ } 
+
+.section-2 h3 
+{
+    font-family:supergroup_std, Arial, sans-serif;
+    position: absolute;
+    font-size: 17px;
+    letter-spacing:1px;
+    font-weight: lighter;
+    left: 37rem;
+    top: 25rem;
+    color: white;
+}
+
+.section-2 .poweredby h5
+{
+    color: white;
+    font-weight: lighter;
+    position: absolute;
+    top: 33rem;
+    left: 39rem;
+    text-align: center;
+}
+
+.section-2 .poweredby h5 span
+{
+    font-size: 23px;
+}
+
+.section-3
+{
+    position: relative;
+    height: 33rem;
+}
+
+.section-3 .productpics
+{
+    display:grid;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height:24.5rem;
+    gap: 1rem;
+    margin:0 1rem 1rem 1rem ;
+}
+
+.section-3 .caption
+{   margin-left:1rem ;
+    font-family: supergroup_std, Arial, sans-serif;
+    opacity: .7;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    color: #444444;
+}
+
+.section-3 .caption span
+{
+    margin-right: 3rem;
+}
+
+
+.section-3 button
+{
+    padding: .6rem 3rem .6rem 3rem;
+    color: white;
+    font-weight: bolder;
+    font-family: supergroup_std, Arial, sans-serif;
+    font-size: 12px;
+    background-color:#e97a1e;
+    border: none;
+    margin:0 1rem 1rem;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.section-3 button:hover
+{
+    background-color: white;
+    color: #e97a1e;
+} 
+
+.section-3 .shopmen
+{    
+    position: absolute;
+    left: 35rem;
+    margin-top: 1rem;
+}
+
+.section-3 .shopwomen
+{
+    position: absolute;
+    left: 47rem;
+    margin-top: 1rem;
+}
+
+.section-4
+{
+    position: relative;
+    display: flex;
+    height: 35rem;
+    margin:0 1rem 1rem 1rem;
+}
+
+.section-4 .image img
+{
+    object-fit: cover;
+    width: 30rem;
+    height: 100%;
+}
+
+.section-4 .texts
+{ 
+    width: 70rem;
+    height: 100%;
+    background-color: black;
+    text-align: center;
+    color:white;
+}
+
+.section-4 .texts h1
+{
+    font-family: supergroup_heavy, Arial, "Lucida Grande", sans-serif;
+    font-size: 70px;
+    margin-top: 5rem;
+}
+
+.section-4 .texts h4
+{   font-family: supergroup_lt, Arial, "Lucida Grande", sans-serif;
+    font-size: 16px;
+    margin: 3rem 0 2rem 0;
+    word-spacing: .2rem;
+    font-weight: lighter;
+}
+
+.section-4 .texts button
+{
+    padding: .8rem 1.5rem .8rem 1.5rem;
+    color: black;
+    font-weight: bolder;
+    font-family: supergroup_std, Arial, sans-serif;
+    font-size: 17px;
+    background-color:white;
+    border: none;
+    margin:0 1rem 1rem; 
+    cursor: pointer;
+}
+
+.section-5 
+{
+    width: 93rem;
+    margin:0 0 2rem 1rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.section-5 .image img
+{
+    object-fit: cover;
+    width: 93rem;
+    height: 100%;
+}
+
+.section-5 button
+{
+    padding: .8rem 2.4rem .8rem 2.4rem;
+    color: black;
+    font-weight: bolder;
+    font-family: supergroup_std, Arial, sans-serif;
+    font-size: 17px;
+    background-color:white;
+    cursor: pointer;
+    border: none;
+    margin:0 1rem 1rem;  
+}
+
+.section-5 .shopmen
+{    
+    position: absolute;
+    left: 46.2rem;
+    top: 34rem;
+}
+
+.section-5 .shopwomen
+{    
+    position: absolute;
+    left: 32.7rem;
+    top: 34rem;
+}
+
+
+.section-6
+{
+    position: relative;
+    display: flex;
+    height: 35rem;
+    margin:0 1rem 1rem 1rem;
+}
+
+.section-6 .image img
+{
+    object-fit: cover;
+    width: 30rem;
+    height: 100%;
+}
+
+.section-6 .texts
+{ 
+    width: 70rem;
+    height: 100%;
+    background-color: black;
+    text-align: center;
+    color:white;
+    justify-content: center;
+}
+
+
+.section-6 .texts h1
+{
+    font-family: supergroup_heavy, Arial, "Lucida Grande", sans-serif;
+    font-size: 70px;
+    margin-top: 5rem;
+}
+
+
+.section-6 .texts h4
+{   font-family: supergroup_lt, Arial, "Lucida Grande", sans-serif;
+    font-size: 16px;
+    margin: 3rem 0 2rem 0;
+    word-spacing: .2rem;
+    font-weight: lighter;
+}
+
+.section-6 .texts button
+{
+    padding: .8rem 1.5rem .8rem 1.5rem;
+    color: black;
+    font-weight: bolder;
+    font-family: supergroup_std, Arial, sans-serif;
+    font-size: 17px;
+    background-color:white;
+    border: none;
+    margin:0 1rem 1rem; 
+    cursor: pointer;
+}
+
+.section-7
+{
+    display: flex; 
+    height: 20rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.section-7 .images img
+{
+    margin: 0 2.2rem 1rem 1rem;
+    object-fit: contain;
+    width: 43.9rem;   
+}
+
+
+.section-7  button
+{
+    padding: .5rem 1rem .5rem 1rem;
+    color: black;
+    font-weight: bolder;
+    font-family: supergroup_std, Arial, sans-serif;
+    font-size: 17px;
+    background-color:white;
+    border: none;
+    margin:0 1rem 1rem; 
+}
+
+
+.section-7 .shopmen
+{    
+    position: absolute;
+    left: 19rem;
+    top: 9rem;
+}
+
+.section-7 .shopwomen
+{    
+    position: absolute;
+    left: 64rem;
+    top: 9rem;
+}
+
+
+.section-8
+{
+    width: 93rem;
+    margin:0 0 2rem 1rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.section-8 .image img
+{
+    object-fit: cover;
+    width: 93rem;
+    height: 100%;
+}
+
+.section-8 button
+{
+    padding: .8rem 2.4rem .8rem 2.4rem;
+    color: black;
+    font-weight: bolder;
+    font-family: supergroup_std, Arial, sans-serif;
+    font-size: 17px;
+    background-color:white;
+    cursor: pointer;
+    border: none;
+    margin:0 1rem 1rem;  
+}
+
+.section-8 .shopmen
+{    
+    position: absolute;
+    left: 34.5rem;
+    top: 34rem;
+}
+
+.section-8 .shopwomen
+{    
+    position: absolute;
+    left: 46rem;
+    top: 34rem;
+}
+
+.section-9
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.section-9 .images
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.section-9 .images img
+{
+    
+    height:29rem;
+    width: 29rem;
+    margin:0 1rem 2rem 1rem ;
+}
+
+.section-9 figcaption
+{
+    margin:0 0 1rem 2rem ;
+    font-family: supergroup_heavy, Arial, "Lucida Grande", sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #333333;
+}
+
+.section-9 figure p
+{
+    margin: 0 0 2rem 2rem;
+    font-family: supergroup_std, Arial, "Lucida Grande", sans-serif;
+    color: #444444;
+    line-height: 1.4rem;
+    font-weight: lighter;
+}
+
+.section-9 figure h5
+{
+    margin-left: 2rem;
+    font-family: supergroup_bold, Arial, "Lucida Grande", sans-serif;
+    padding-bottom: .5rem;
+    width: 27rem;
+    border-bottom: 1px solid #444444;
+    color: #333333;
+}
+
+footer
+{
+    height: 32rem;
+    position: relative;
+}
+
+footer .upperfooter
+{
+    height: 16rem;
+    background-color:#f7f7f7 ;
+    text-align: center;
+}
+
+footer .upperfooter .firstline h1
+{
+    
+    padding: 3rem 0 1rem 0;
+    font-size: 40px;
+    color: #444444;
+    font-family: supergroup_bold, Arial, "Lucida Grande", sans-serif;
+}
+
+.upperfooter .secondline h5
+{
+    font-family: supergroup_med, Arial, "Lucida Grande", sans-serif;
+    color: #212529;
+    font-size: 16px;
+    font-weight: lighter;
+    padding-bottom: 2rem;
+}
+
+.upperfooter .email input
+{
+    padding: 2rem 7rem 1rem 11rem;
+    border: none;
+    outline: none;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.upperfooter .email input::placeholder
+{
+    font-size: 16px;
+    position: absolute;
+    left: 1rem;
+}
+
+.upperfooter .email button
+{
+    padding: .7rem 2rem .7rem 2rem;
+    color: white;
+    font-weight: bolder;
+    font-family: supergroup_std, Arial, sans-serif;
+    font-size: 13px;
+    background-color:black;
+    border: none;
+    margin:0 1rem 1rem;  
+}
+
+footer .lowerfooter
+{
+    height: 13rem;
+    background-color: black;
+    display: flex;
+    gap: 3.5rem;
+}
+
+footer .lowerfooter .head
+{
+    color: white;
+    padding-top: 1rem;
+    line-height: 1.7rem;
+    margin-left: 1rem;
+    font-family: supergroup_bold, Arial, "Lucida Grande", sans-serif;
+    font-size:13px ;
+    cursor: default;
+}
+
+footer .lowerfooter .details
+{
+    color: white;
+    font-weight: lighter;
+    line-height: 1.7rem;
+    margin-left: 1rem;
+    font-family: supergroup_std, Arial, sans-serif;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+footer .lowerfooter .details:hover
+{
+    color:#ff3c00;
+}
+
+footer .medias 
+{
+    position:absolute;
+    color: white;
+    right:.5rem;
+    top: 22rem;
+    font-size: 27px;
+}
+
+footer .medias i
+{
+    padding-right: .6rem;
+    cursor: pointer;
+}
+
+footer .lastline
+{
+    position: relative;
+    height: 3rem;
+    background-color: #242424;
+}
+
+footer .lastline h5
+{
+    position: absolute;
+    right: .5rem;
+    top: 1rem;
+    font-size: 13px;
+    letter-spacing: 1.2px;
+    font-weight: lighter;
+    color: white;
+}
